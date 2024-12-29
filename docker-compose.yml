@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  leetcode:
+    build: .
+    container_name: leetcode2025
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000" # Modify if you're exposing a specific port
+    command: python3 main.py
