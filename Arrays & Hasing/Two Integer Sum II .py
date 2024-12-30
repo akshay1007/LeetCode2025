@@ -19,7 +19,7 @@ class Solution():
   
 if __name__ == "__main__":
     obj = Solution()
-    numbers = [1,2,3,4]
-    target = 3
+    numbers = [3,4,5,6]
+    target = 7
     output = obj.twoSum2(numbers, target)
     print('Result --> ', output)
